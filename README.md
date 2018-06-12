@@ -1,6 +1,8 @@
 # DSpace-Docker-Installation
 
-Steps for installation of DSpace with Docker
+
+                              Steps for installation of DSpace with Docker
+                              
 
 Step-1
       Update your system
@@ -85,14 +87,35 @@ Basic Requirements:
 Step-11) Launch Docker-Compose
 
         $ docker-compose up -d
-Step-12) 
+Step-12) Once lanched, to get into developer account, first find the container id of "dspace-dev-docker_dspace-dev" using,
+      
+        $ docker ps
+        
+   Take the container id of "docker-dev-docker_dspace-dev" from above and use the same id in the next step.
+        
+        $ docker attach <container-id>
+                  
+                  Example: docker attach 9be4y7se3
+              
+Step-13) Compilation of DSpace inside the container
 
-      
-Once launched, you should be able to attach to the container's bash process. This will get you into a 'developer' account
-      
-      
-      
-      
-      
+       $ mvn -Dmirage2.on=true -Dmirage2.deps.included=false package
+    
+Step-14) Once compiled the task' alias is available.Install the java webapps inside the container.
 
-         
+        
+        $tasks fresh_install
+       
+Step-15) Now create a user for the DSpace
+
+        $ dspace create-administrator
+        
+Step -16) Staring the server
+
+       $ tomcat start && catalina.out
+ 
+ -----------------------------------------------------------------------------------------------------------------------
+ 
+             Now open http://localhost:8080/xmlui/ , you can access the DSpace xml UI.
+      
+                  
