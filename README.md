@@ -118,4 +118,11 @@ Step -16) Staring the server
  
              Now open http://localhost:8080/xmlui/ , you can access the DSpace xml UI.
       
-                  
+      
+References:
+
+    [1] https://wiki.duraspace.org/display/~terrywbrady/Building+and+Running+DSpace+in+Docker
+    [2] http://wiki.lib.sun.ac.za/index.php?title=SUNScholar/Install_DSpace/S04/5.X
+    [3] https://github.com/DSpace-Labs/dspace-dev-docker
+      
+                 
