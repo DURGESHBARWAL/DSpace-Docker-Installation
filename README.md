@@ -104,7 +104,7 @@ Step-13) Compilation of DSpace inside the container
 Step-14) Once compiled the task' alias is available.Install the java webapps inside the container.
 
         
-        $tasks fresh_install
+        $ task fresh_install
        
 Step-15) Now create a user for the DSpace
 
