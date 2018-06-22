@@ -130,5 +130,5 @@ References:
     [1] https://wiki.duraspace.org/display/~terrywbrady/Building+and+Running+DSpace+in+Docker
     [2] http://wiki.lib.sun.ac.za/index.php?title=SUNScholar/Install_DSpace/S04/5.X
     [3] https://github.com/DSpace-Labs/dspace-dev-docker
-      
+    [4] https://wiki.duraspace.org/display/DSDOC6x/REST+API#RESTAPI-DisablingSSL  
                  
