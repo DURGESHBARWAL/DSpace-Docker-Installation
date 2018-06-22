@@ -82,7 +82,13 @@ Basic Requirements:
       
       Have ports 8080 (tomcat), 5432 (postgresql), 1043 and 8000 (remote debugging) open.
       Otherwise, you can modify the mappings in docker-compose.yml file to use whichever ports you prefer.
-      Also modify the "local.cfg" file in db.url with correct port for postgres
+      Also modify the "local.cfg" file in db.url with correct port for postgres.
+      
+      
+      NOTE: 
+      
+      ******************To Activate APIs of DSpace, Disable the SSL******************************
+                To disable DSpace REST's requirement to require security/ssl,[dspace-source]/dspace-rest/src/main/webapp/WEB-       INF/web.xml and comment out the <security-constraint> block.
       
 Step-11) Launch Docker-Compose
 
