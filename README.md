@@ -88,7 +88,7 @@ Basic Requirements:
       NOTE: 
       
       ******************To Activate APIs of DSpace, Disable the SSL******************************
-                To disable DSpace REST's requirement to require security/ssl,[dspace-source]/dspace-rest/src/main/webapp/WEB-       INF/web.xml and comment out the <security-constraint> block.
+                To disable DSpace REST's requirement to require security/ssl, [dspace-source]/dspace-rest/src/main/webapp/WEB-INF/web.xml and comment out the <security-constraint> block.
       
 Step-11) Launch Docker-Compose
 
