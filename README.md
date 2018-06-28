@@ -3,6 +3,8 @@
 
                               Steps for installation of DSpace with Docker
                               
+          Basic Requirements is that, we need a user account with "dspace" name. Otherwise, we have to change the all configration files of dspace-src folder.                  
+                              
 
 Step-1
       Update your system
